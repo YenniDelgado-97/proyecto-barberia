@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./products.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="caja">
+
+            <img src="imagenes/logo.png">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Products</a></li>
+                    <li><a href="contacto.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+    <form>
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="input-padron" required>
+
+        <label for="correoelectronico">Correo Electronico</label>
+        <input type="text" id="correoelectronico" class="input-padron" required placeholder="email@email.com">
+
+        <label for="telefono">Telefono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="telefono">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje">
+
+            </textarea>
+
+        <fieldset>
+
+            <legend >¿Cómo te gustaria que te contactaramos?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">
+                Email</label>
+
+
+            <label for="radio-telefono"><input type="radio" name="contacto" value="email"
+                    id="radio-telefono">Telefono</label>
+
+
+            <label for="radio-whatsaap"><input type="radio" name="contacto" value="email" id="radio-whatsaap" checked>
+                Whatsaap</label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>En cúal horario prefiere ser atendido?</legend>
+            <select>
+                <option value="">Mañana</option>
+                <option value="">Tarde</option>
+                <option>Noche</option>
+            </select>
+        </fieldset>
+
+       
+
+        <label><input type="checkbox">Le gustaria recibir novedades</label>
+
+
+        <input type="submit" value="Enviar Formulario">
+
+    </form>
+
+    <footer>
+        <img src="imagenes/logo-blanco.png">
+        <p class="copyright">&copy Copyrigth-2020</p>
+    </footer>
+
+</body>
+
+
+
+</header>
